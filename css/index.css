@@ -1,0 +1,9 @@
+body{
+    background-color: darksalmon;
+}
+#purchase-btn{
+    background-color: gold;
+}
+#purchase-btn:hover{
+    cursor: pointer;
+}

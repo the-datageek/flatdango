@@ -192,7 +192,7 @@ let currentVisibleFilm = {}
 
         const filmRuntime = document.createElement('h6')
         filmRuntime.classList.add('p-2')
-        filmRuntime.innerText = runtime
+        filmRuntime.innerText = runtime 
 
         const filmCapacity = document.createElement('h6')
         filmCapacity.classList.add('p-2')
@@ -295,11 +295,11 @@ const configurationObject = {
         },
         body:JSON.stringify(addingFilmData),
     }
-fetch(FILMAPI, configurationObject)
+/*fetch(FILMAPI, configurationObject)
     .then(response => response.json()
     .then(object => console.log(object))
     .catch(error => {
         alert("Bad things happen!")
         console.log(error.message)
     })
-)
+)*/
