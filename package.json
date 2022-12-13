@@ -1,0 +1,25 @@
+{
+  "name": "flatdango",
+  "version": "1.0.0",
+  "description": "An application that allows a user to purchase movie tickets from the theatre",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-datageek/flatdango.git"
+  },
+  "keywords": [
+    "html",
+    "json",
+    "javascript",
+    "css"
+  ],
+  "author": "Faith Moraa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-datageek/flatdango/issues"
+  },
+  "homepage": "https://github.com/the-datageek/flatdango#readme"
+}
