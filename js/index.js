@@ -77,7 +77,7 @@ let currentVisibleFilm = {}
         const query = searchInput.value
         searchFilm(query)
         filmRow.style.display = "none"
-        searchRow.style.display = "flex"
+        searchRow.style.display = "grid"
         searchRow.removeAttribute('hidden')
     })
 
@@ -85,7 +85,7 @@ let currentVisibleFilm = {}
     const createFilm = (poster, title, runtime, capacity, showtime, tickets_sold, description) => {
 
         const cardDiv = document.createElement('div')
-        cardDiv.classList.add('card', 'col-12', 'px-0', 'mb-3')
+        cardDiv.classList.add('card', 'col-6', 'px-0', 'mb-3')
 
         const rowDiv = document.createElement('div')
         rowDiv.classList.add('row')
@@ -109,7 +109,7 @@ let currentVisibleFilm = {}
         filmRuntime.classList.add('card-text')
         filmRuntime.innerText = `Runtime: ${runtime}`
 
-        const filmCapacity = document.createElement('h6')
+        const filmCapacity = document.createElement('h5')
         filmCapacity.classList.add('card-text')
         filmCapacity.innerText = `Capacity: ${capacity}`
 
