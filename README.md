@@ -4,7 +4,8 @@
 1. Description
 2. Setup
 3. Deliverables
-4. Author and Licenses
+4. Acess
+5. Author and Licenses
 
 ### Description
 Flatdango is an application that allows a user to purhase movie tickets from the theatre.
@@ -16,6 +17,25 @@ Flatdango is an application that allows a user to purhase movie tickets from the
 http://lcalhost:3000/films
 - Open the index.html file on your browser to run the application.
 - Write your code in the <code>index.js</code> file. The base URL for your API will be http://loalhost:3000
+
+### Access
+To access the conent on the browser:
+
+*click on this link: https://the-datageek.github.io/flatdango/
+
+or
+
+* Mac users: run <code>open index.html</code> on your terminal
+* WSL/Ubuntu users: run <code>explorer.exe index.html</code>  on your terminal
+
+or
+
+* Visual Studio Code:
+-Install <code>Live Server </code>extension
+-Click on code <code>Go Live </code>on the bottom right center
+
+
+
 
 ### Deliverables
 As a user, I can:
@@ -80,6 +100,7 @@ GET /films
    see the number of available tickets decreasing on the frontend. I should not
    be able to buy a ticket if the showing is sold out (if there are 0 tickets
    available). **No persistence is needed for this feature**.
+
 
 ### Author
 This project was contributed to by: <a href="https://github.com/the-datageek">"Faith Moraa</a>
